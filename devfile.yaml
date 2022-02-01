@@ -12,7 +12,9 @@ components:
     type: chePlugin
   - id: redhat/dependency-analytics/latest
     type: chePlugin
-  - mountSources: true
+  - id: redhat/vscode-openshift-connector/latest
+    type: chePlugin
+    - mountSources: true
     endpoints:
       - name: 8080-tcp
         port: 8080
